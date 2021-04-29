@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Home</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark sticky" style=" border-bottom: 2px solid #f15a24; background: #1a1a1a;">
+                <a class="navbar-brand" href="javascript:void(0)"><img src="images/Header/logo.svg" width="135" height="65" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item col-auto d-flex align-items-center">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item col-auto d-flex align-items-center">
+                            <a class="nav-link" href="#jobtype">Services</a>
+                        </li>
+                        <li class="nav-item col col-auto d-flex align-items-center">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item col-auto d-flex align-items-center">
+                            <a class="nav-link" href="#">Recruitment</a>
+                        </li>
+                        <li class="nav-item col-auto d-flex align-items-center">
+                            <a href="#contacts">
+                                <form>
+                                    <button type="button" class=" btn btn-contact justify-content-center">Contact</button>
+                                </form>
+                            </a>
+                        </li>
+                        <li class="d-flex align-items-center mb-1">
+                            <form action="/" method="POST"  name="LangForm">
+                                <div>
+                                    <select class="form-control" id="choosing-lang">
+                                        <option>English</option>
+                                        <option>日本語</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" class="for_mobile">
+                        <picture>
+                            <source srcset="images/Header/banner_home.png" media="(min-width: 1024px)">
+                            <source srcset="images/Header/banner_home_ipad.png" media="(min-width: 1024px)">
+                            <img class="d-block w-100" src="images/Header/banner_home_mobile.png" alt="First slide">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <!-- Contracts -->
+                <div class="container-fluid box-content">
+                <div class="row box-content" style="justify-content: center">
+                    <h1 style="font-weight: 700">Contracts</h1>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="container" style="background: #f2f2f2">
+                                <div class="row justify-content-center">
+                                    <img src="images/Section1/hd_base.png" alt="Project Base" class="img-contracts">
+                                </div>
+                                <h2 style="font-weight: 500">Project Base</h2>
+                                <p style="text-align: justify; font-size: 1rem;">This arrangement is a project-based design and development contract in which we shall assemble and staff you with a dedicated personnel team. This is the optimal solution to help you mitigate the tension when your projects enter critical phases.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="container" style="background: #f2f2f2">
+                                <div class="row justify-content-center">
+                                    <img src="images/Section1/hd_labor.png" alt="Labor" class="img-contracts">
+                                </div>
+                                <h2 style="font-weight: 500">Labor</h2>
+                                <p style="text-align: justify; font-size: 1rem;">Under this contractual arrangement, a dedicated personnel team which we assemble abroad shall be left at your disposal and work on premises throughout the course of the projects. This works towards facilitating a stable and long-term development.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="container" style="background: #f2f2f2">
+                                <div class="row justify-content-center">
+                                    <img src="images/Section1/hd_onsite.png" alt="Onsite" class="img-contracts">
+                                </div>
+                                <h2 style="font-weight: 500">Project Base</h2>
+                                <p style="text-align: justify; font-size: 1rem;">For projects with a high level of difficulty, more than one Vietnamese SE will work at your premises to help run your business more smoothly and is guided by a remote development team.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Services -->
+                <div class="container-fluid box-content" id="jobtype">
+                    <div class="row box-content" style=" justify-content: center">
+                        <h1 style="font-weight: 700; color: #fff; padding-top: 2rem; text-align: center;">Service</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 justify-content-lg-end animate" data-id="1">
+                            <div class="middle-top des-text">Mobile Application
+                            </div>
+                            <img class="content-images" src="images/Section2/service_mobile.png" alt="Mobile Application">
+                        </div>
+                        <div class="col-12 col-lg-6 justify-content-lg-start animate" data-id="1">
+                            <div class="middle-top des-text">Web Appliation
+                            </div>
+                            <img class="content-images" src="images/Section2/service_web.png" alt="Web Application">
+                        </div>
+                        <div class="col-12 col-lg-6 justify-content-lg-end animate"data-id="1">
+                            <div class="des-text middle-top">AI & IoT
+                            </div>
+                            <img class="content-images" src="images/Section2/service_ai.png" alt="AI & IoT">
+                        </div>
+                        <div class="col-12 col-lg-6 justify-content-lg-start animate"data-id="1">
+                            <div class="des-text middle-top">Game
+                            </div>                    
+                            <img class="content-images" src="images/Section2/service_game.png" alt="Game">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Programing Language -->
+                <div class="container-fluid box-content">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center;">Programing Language</h1>
+                    </div>
+                    <div class="row border-content" style="justify-content: center">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content mt-10">
+                            <img class="PL_img" src="images/Programing%20Language/php.svg" alt="PHP">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">PHP</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/swift.svg" alt="Swift">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Swift</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/js.svg" alt="JavaScript">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">JavaScript</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/html5.svg" alt="HTML5">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">HTML5</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/css3.svg" alt="CSS3">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">CSS3</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/kotlin.svg" alt="Kotlin">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Kotlin</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/java.svg" alt="Java">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Java</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/python.svg" alt="Python">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Python</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/ruby.png" alt="Ruby">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Ruby</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Programing%20Language/objective-c.svg" alt="Objective-C">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Objective-C</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Framework -->
+                <div class="container-fluid box-content">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center;;">Framework</h1>
+                    </div>
+                    <div class="row border-content" style="justify-content: center">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/laravel.svg" alt="Lavarel">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Lavarel</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/cakephp.svg" alt="CakePHP">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">CakePHP</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/fuelphp.svg" alt="FuelPHP">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">FuelPHP</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/codeigniter.svg" alt="CodeIgniter">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">CodeIgniter</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/wordpress.svg" alt="WordPress">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">WordPress</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/jquery.svg" alt="jQuery">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">jQuery</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/reactjs.svg" alt="ReactJS">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">ReactJS</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/angular.svg" alt="Angular">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Angular</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/rail.png" alt="RubyOnRails">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">RubyOnRails</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/ec-cube.png" alt="ECCube">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">EC Cube</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/android.svg" alt="Android">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Android</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Framework/unity.svg" alt="Unity">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Unity</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Cloud Services -->
+                <div class="container-fluid box-content">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center;;">Cloud Services</h1>
+                    </div>
+                    <div class="row border-content" style="justify-content: center">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Cloud%20Services/aws.svg" alt="AWS">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">AWS</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Cloud%20Services/firebase.svg" alt="GoogleFirebase">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Google Firebase</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Cloud%20Services/google.svg" alt="GoogleAPI">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Google API</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Cloud%20Services/facebook.svg" alt="FacebookSDK">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Facebook SDK</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Cloud%20Services/digitalocean.svg" alt="DigitalOcean">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">DigitalOcean</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Storage & Database -->
+                <div class="container-fluid box-content">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center;;">Storage & Database</h1>
+                    </div>
+                    <div class="row border-content" style="justify-content: center">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Database/mysql.svg" alt="MySQL">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">MySQL</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Database/redis.svg" alt="Redis">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Redis</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Database/postgresql.svg" alt="PostgreSQL">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">PostgreSQL</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Database/sqlite.svg" alt="SQLite">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">SQLite</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Third Party -->
+                <div class="container-fluid box-content">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center;;">Third Party</h1>
+                    </div>
+                    <div class="row border-content" style="justify-content: center">
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/vagrant.svg" alt="Vagrant">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Vagrant</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/docker.svg" alt="Docker">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Docker</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/slack.svg" alt="Slack">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Slack</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/chatwork.svg" alt="Chatwork">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Chatwork</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/skype.svg" alt="Skype">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Skype</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/trello.svg" alt="Trello">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Trello</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/swagger.svg" alt="Swagger">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Swagger</h4>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-sm-6 col icon-content">
+                            <img class="PL_img" src="images/Third%20Party/gitlab.svg" alt="Gitlab">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">Gitlab</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Partner -->
+                <div class="container-fluid box-content">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center;;">Partners</h1>
+                    </div>
+                    <div class="row border-content" style="justify-content: center">
+                        <div class="col-12 col-md icon-content">
+                            <img src="images/Parters/insight.png" alt="株式会社インサイト" style="width: 100%; ">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">株式会社インサイト</h4>
+                        </div>
+                        <div class="col-12 col-md icon-content">
+                            <img src="images/Parters/dimageshare.jpg" alt="株式会社ディマージシェア" style="width: 100%; ">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">株式会社ディマージシェア</h4>
+                        </div>
+                        <div class="col-12 col-md icon-content">
+                            <img src="images/Parters/irep.png" alt="株式会社アイレップ" style="width: 100%; ">
+                            <h4 style="margin-bottom: 1rem; padding: 1rem; font-weight: 600; font-size: 15px;">株式会社アイレップ</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- Contact -->
+                <div class="container-fluid" style="background-color: #e6e6e6;" id="contacts">
+                    <div class="row box-content" style="justify-content: center">
+                        <h1 style="font-weight: 700; text-align: center; padding: 2rem 0 1rem 0; margin-bottom: 0;">Contact</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="map-responsive contact-content">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0059908287726!2d105.78085741533219!3d21.03244629302742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab4b44cd1fa1%3A0x128bd46360fd9b79!2zVG_DoCBuaMOgIEFDIEJ1aWxkaW5n!5e0!3m2!1svi!2s!4v1618893255026!5m2!1svi!2s" width="600" height="450" frameborder="0" style=" border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <form action="/contact" method="post" name="contact" id="form-contact">
+                                <div class="form-group">
+                                    <p><input type="text" class="form-control" placeholder="Company name (*)"></p>
+                                    <p><input type="text" class="form-control" placeholder="Your name (*)"></p>
+                                    <p>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md">
+                                            <p><input type="email" class="form-control" placeholder="Email (*)"></p>
+                                        </div>
+                                        <div class="col-12 col-md">
+                                            <p><input type="text" class="form-control" placeholder="Tel. (*)"></p>
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p>
+                                        <select class="form-control" id="Question">
+                                            <option value="1">Question types (*)</option>
+                                            <option value="2">Visit our company</option>
+                                            <option value="3">Business collaboration</option>
+                                            <option value="4">Price quotation for development services</option>
+                                            <option value="5">Solution consultantcy</option>
+                                            <option value="6">Others</option>
+                                        </select>
+                                    </p>
+                                    <p><textarea class="demand-area" id="Demands" rows="5" placeholder="Please sepcify your demands"></textarea></p>
+                                    <p>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="AgreePol">
+                                            <label class="form-check-label" for="AgreePol">I agree to the privacy</label>
+                                        </div>
+                                    </div>
+                                    </p>
+                                    <p class="d-flex justify-content-center">
+                                        <button type="submit" class=" btn btn-contact d-flex justify-content-center align-items-center" style="width: 9rem;">
+                                            <img src="telegram.png" style="width: 1rem;">
+                                    <p style="margin: 0; margin-left: 5px; font-size: 14px;">Send</p>
+                                    </button>
+                                    </p>  
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="k-footer">
+            <div class="container-fluid box-content">
+                <div class="row">
+                    <div class="col-md mt-4">
+                        <ul class="list-group">
+                            <li class="list-group-item mb-2">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="list-group-item mb-2">
+                                <a href="#">Services</a>
+                            </li>
+                            <li class="list-group-item mb-2">
+                                <a href="#">About Us</a>
+                            </li>
+                            <li class="list-group-item mb-2">
+                                <a href="#">Recruitment</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <p style="font-size: 14px;"><img src="images/Footer/map-pointer.png" style="width: 8%;">2F, AC building, No 3/78 Duy Tan Street, Cau Giay District, Ha Noi</p>
+                        <p style="font-size: 14px;"><img src="images/Footer/phone.png" style="width: 8%;">(+84) 982 851 486</p>
+                        <p style="font-size: 14px;"><img src="images/Footer/envelope.png" style="width: 8%;">contact@kiaisoft.com</p>
+                    </div>
+                    <div class="col-md disappear-content">
+                        <img src="images/Footer/logo_ft.svg" alt="Kiai">
+                    </div>
+                </div>
+                <hr>
+                <div class="row disappear-content">
+                    <div class="col-12 col-md-3">
+                        <a href="#" style="margin: 1rem;"><img src="images/Footer/phone.png" style="width: 10%;"></a>
+                        <a href="#" style="margin: 1rem;"><img src="images/Footer/facebook.png" style="width: 10%;"></a>
+                        <a href="#" style="margin: 1rem;"><img src="images/Footer/linkedin.png" style="width: 10%;"></a>
+                    </div>
+                    <div class="col-12 col-md-9" style="text-align: right; font-size: 14px;">
+                        <p>
+                            Copyright © 2019 Kiaisoft Viet Nam Co., Ltd. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('.des-text').hide()
+                $('.animate').mouseover(function() {
+                    $(this).addClass('zoom');
+                    $(this).find('.des-text').show();
+                });
+                $('.animate').mouseout(function() {
+                    $(this).removeClass('zoom')
+                    $('.des-text').hide();
+                });
+            });
+        </script>
+    </body>
+</html>
